@@ -4,25 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="275d6e57-4e1b-4fe3-a1e6-5b504e62d419" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/roclh/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/roclh/math/LimitedMathFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/roclh/math/MathUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/roclh/math/funciton/Cos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/roclh/math/funciton/Csc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/roclh/math/funciton/Ln.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/roclh/math/funciton/Log.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/roclh/math/funciton/Sin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/roclh/math/methods/SystemOfFunctions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+    <list default="true" id="275d6e57-4e1b-4fe3-a1e6-5b504e62d419" name="Changes" comment="Initial commit with math functions">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/Roclh/CosTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/Roclh/CscTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/Roclh/LimitedMathFunctionsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/Roclh/LnTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/Roclh/LogTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/Roclh/SinTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/Roclh/SystemOfFunctionsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/roclh/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/roclh/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/roclh/math/MathUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/roclh/math/MathUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/roclh/math/funciton/Cos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/roclh/math/funciton/Cos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/roclh/math/funciton/Csc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/roclh/math/funciton/Csc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/roclh/math/funciton/Ln.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/roclh/math/funciton/Ln.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/roclh/math/funciton/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/roclh/math/funciton/Log.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/roclh/math/funciton/Sin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/roclh/math/funciton/Sin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/roclh/math/methods/SystemOfFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/roclh/math/methods/SystemOfFunctions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +37,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -59,6 +63,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Program files/IDE/IntellijIdea/projects/tpolab2/src/test/java/org/Roclh",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -69,23 +74,110 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.roclh.Main" />
+  <component name="RunManager" selected="JUnit.AllTests">
+    <configuration name="AllTests" type="JUnit" factoryName="JUnit">
       <module name="tpolab2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.roclh.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java/org/Roclh" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SystemOfFunctionsTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="tpolab2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.Roclh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.Roclh" />
+      <option name="MAIN_CLASS_NAME" value="org.Roclh.SystemOfFunctionsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SystemOfFunctionsTest.shouldAcceptOneArgument" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tpolab2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.Roclh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.Roclh" />
+      <option name="MAIN_CLASS_NAME" value="org.Roclh.SystemOfFunctionsTest" />
+      <option name="METHOD_NAME" value="shouldAcceptOneArgument" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SystemOfFunctionsTest.shouldCalculateForPositiveValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tpolab2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.Roclh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.Roclh" />
+      <option name="MAIN_CLASS_NAME" value="org.Roclh.SystemOfFunctionsTest" />
+      <option name="METHOD_NAME" value="shouldCalculateForPositiveValue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SystemOfFunctionsTest.shouldNotAcceptIncorrectPrecisions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tpolab2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.Roclh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.Roclh" />
+      <option name="MAIN_CLASS_NAME" value="org.Roclh.SystemOfFunctionsTest" />
+      <option name="METHOD_NAME" value="shouldNotAcceptIncorrectPrecisions(java.math.BigDecimal)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SystemOfFunctionsTest.shouldNotAcceptZeroArgument" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tpolab2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.Roclh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.Roclh" />
+      <option name="MAIN_CLASS_NAME" value="org.Roclh.SystemOfFunctionsTest" />
+      <option name="METHOD_NAME" value="shouldNotAcceptZeroArgument" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.AllTests" />
+      <item itemvalue="JUnit.SystemOfFunctionsTest" />
+      <item itemvalue="JUnit.SystemOfFunctionsTest.shouldAcceptOneArgument" />
+      <item itemvalue="JUnit.SystemOfFunctionsTest.shouldCalculateForPositiveValue" />
+      <item itemvalue="JUnit.SystemOfFunctionsTest.shouldNotAcceptIncorrectPrecisions" />
+      <item itemvalue="JUnit.SystemOfFunctionsTest.shouldNotAcceptZeroArgument" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.SystemOfFunctionsTest.shouldNotAcceptZeroArgument" />
+        <item itemvalue="JUnit.SystemOfFunctionsTest.shouldNotAcceptIncorrectPrecisions" />
+        <item itemvalue="JUnit.SystemOfFunctionsTest.shouldCalculateForPositiveValue" />
+        <item itemvalue="JUnit.SystemOfFunctionsTest.shouldAcceptOneArgument" />
       </list>
     </recent_temporary>
   </component>
@@ -97,11 +189,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681853985321</updated>
-      <workItem from="1681853986777" duration="10860000" />
+      <workItem from="1681853986777" duration="23351000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit with math functions">
+      <created>1681890052329</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681890052329</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit with math functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit with math functions" />
   </component>
 </project>

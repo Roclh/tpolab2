@@ -23,6 +23,7 @@ public class Csc implements LimitedMathFunction {
 
     @Override
     public BigDecimal calculate(BigDecimal x, BigDecimal precision) {
+        MathUtils.defaultValidate(x, precision);
         logger.info("Calculating Csc function x:{}, precision:{}", x, precision);
         BigDecimal X = MathUtils.correctTrigonometricalValue(x);
         return new BigDecimal(1)
