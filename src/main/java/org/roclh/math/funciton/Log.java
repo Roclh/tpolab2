@@ -3,6 +3,7 @@ package org.roclh.math.funciton;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.roclh.math.LimitedMathFunction;
+import org.roclh.math.MathUtils;
 
 import java.math.BigDecimal;
 
@@ -30,6 +31,7 @@ public class Log implements LimitedMathFunction {
 
     @Override
     public BigDecimal calculate(final BigDecimal x, final BigDecimal precision) {
+        MathUtils.defaultValidate(x, precision);
         logger.info("Calculating Log{} function x:{}, precision:{}", base, x, precision);
         if (x.compareTo(ZERO) <= 0) {
             throw new ArithmeticException(format("Function value for argument %s doesn't exist", x));

@@ -23,9 +23,9 @@ public class Sin implements LimitedMathFunction {
 
     @Override
     public BigDecimal calculate(BigDecimal x, BigDecimal precision) {
+        MathUtils.defaultValidate(x, precision);
         logger.info("Calculating Sin function x:{}, precision:{}", x, precision);
         BigDecimal X = MathUtils.correctTrigonometricalValue(x);
-
         if(X.compareTo(BigDecimal.ZERO) == 0){
             return BigDecimal.ZERO;
         }

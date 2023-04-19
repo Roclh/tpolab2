@@ -14,6 +14,7 @@ public class Cos implements LimitedMathFunction {
 
     @Override
     public BigDecimal calculate(BigDecimal x, BigDecimal precision) {
+        MathUtils.defaultValidate(x, precision);
         logger.info("Calculating Cos function x:{}, precision:{}", x, precision);
         BigDecimal X = MathUtils.correctTrigonometricalValue(x);
         BigDecimal PI2 = MathUtils.getPi().multiply(new BigDecimal(2));
