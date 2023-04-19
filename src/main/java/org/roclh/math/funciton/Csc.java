@@ -30,4 +30,6 @@ public class Csc implements LimitedMathFunction {
                 .divide(sin.calculate(X, precision), MathContext.DECIMAL128.getPrecision(), RoundingMode.HALF_EVEN)
                 .setScale(precision.scale(), RoundingMode.HALF_EVEN);
     }
+
+
 }
